@@ -1,0 +1,68 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /cmfz
+  #提供页面热部署
+    jsp:
+      init-parameters:
+        development: true
+spring:
+# 数据源  jdbc:mysql://localhost:3306/blog    jdbc:mysql://192.168.43.14:8066/mycat_schema
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cmfz?useUnicode=true&characterEncoding=UTF8
+    username: root
+    password: 123456
+  # spring-data操作Redis
+  redis:
+    host: 192.168.43.15
+    port: 6379
+    database: 3
+    #最大连接数
+    max-active: 8
+    #最大阻塞等待时间(负数表示没限制)
+    max-wait: -1
+    #最大空闲
+    max-idle: 8
+    #最小空闲
+    min-idle: 0
+    #连接超时时间
+    timeout: 10000
+
+  # 添加视图解析器
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  aop:
+    proxy-target-class: true   # proxy-target-class="true"  //使用cglib动态代理
+                               # proxy-target-class="false" //使用jdk动态代理
+  http: #中文乱码（全局）
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+  # 文件上传下载 大小的配置
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      max-request-size: 100MB
+      #fileSizeThreshold: 0KB
+
+
+
+
+mybatis:
+  type-aliases-package: com.baizhi.zjj.entity  #指定别名
+  mapper-locations: classpath:mapper/*.xml #指定mapper文件的位置
+  # mapper-locations: classpath:com/baizhi/zjj/mapper/*.xml #指定mapper文件的位置
+
+logging:
+  level:
+    root: info
+    com.baizhi.zjj.dao: debug
+    com.baizhi.zjj.controller: debug
+    com.baizhi.zjj.service: debug
+  file: cmfzlog.log

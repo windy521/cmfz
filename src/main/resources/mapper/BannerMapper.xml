@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.zjj.dao.BannerDao">
+    <select id="queryBannersByTime" resultType="Banner">
+        select * from banner where status = '1' order by create_date desc limit 0,3
+    </select>
+</mapper>

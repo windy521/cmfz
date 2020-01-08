@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.zjj.dao.LogDao">
+
+    <!--新增日志-->
+    <insert id="addLog">
+        insert into log(id,name,thing,date,flag)
+        values (#{id},#{name},#{thing},#{date},#{flag})
+    </insert>
+
+    <select id="selectAllLog" resultType="log">
+        select * from log
+    </select>
+
+</mapper>
