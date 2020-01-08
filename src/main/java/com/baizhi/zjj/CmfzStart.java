@@ -15,6 +15,7 @@ public class CmfzStart extends SpringBootServletInitializer {
     }
 
 }
+//哈哈哈
 /*@SpringBootApplication 注解等价于:
 @Configuration           项目启动时自动配置spring 和 springmvc 初始搭建
 @EnableAutoConfiguration 自动与项目中集成的第三方技术进行集成
