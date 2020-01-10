@@ -1,6 +1,6 @@
 package com.baizhi.zjj.service;
 
-import com.baizhi.zjj.aspect.LogAnnotation;
+import com.baizhi.zjj.annotation.LogAnnotation;
 import com.baizhi.zjj.dao.ArticleDao;
 import com.baizhi.zjj.entity.Article;
 import org.apache.ibatis.session.RowBounds;

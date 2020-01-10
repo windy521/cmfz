@@ -1,4 +1,4 @@
-package com.baizhi.aspect;
+package com.baizhi.zjj.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class CacheAspect {
     @Autowired
     RedisTemplate redisTemplate;
-    @Around(value = "@annotation(com.baizhi.annotation.AddOrSelectCache)")
+    @Around(value = "@annotation(com.baizhi.zjj.annotation.AddOrSelectCache)")
     public Object addOrSelectCache(ProceedingJoinPoint proceedingJoinPoint){
         // 问题: 缓存的数据结构如何设计?
         // Key : 原始类的 类名的全限定名  key: 方法名+参数 value: 数据
@@ -42,10 +42,10 @@ public class CacheAspect {
             return null;
         }
     }
-    @Around(value = "@annotation(com.baizhi.annotation.ClearCache)")
+    @Around(value = "@annotation(com.baizhi.zjj.annotation.ClearCache)")
     public Object clearCache(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
-        String s = proceedingJoinPoint.getTarget().getClass().toString();
-        redisTemplate.delete(s);
+        String clazz = proceedingJoinPoint.getTarget().getClass().toString();
+        redisTemplate.delete(clazz);
         return proceedingJoinPoint.proceed();
     }
 }

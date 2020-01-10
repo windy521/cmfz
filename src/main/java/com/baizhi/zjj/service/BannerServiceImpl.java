@@ -1,6 +1,7 @@
 package com.baizhi.zjj.service;
 
-import com.baizhi.zjj.aspect.LogAnnotation;
+import com.baizhi.zjj.annotation.AddOrSelectCache;
+import com.baizhi.zjj.annotation.LogAnnotation;
 import com.baizhi.zjj.entity.Banner;
 import com.baizhi.zjj.dao.BannerDao;
 import org.apache.ibatis.session.RowBounds;
@@ -20,6 +21,7 @@ public class BannerServiceImpl implements BannerService {
     }
 
     @Override
+    //@AddOrSelectCache
     public Map<String,Object> queryAllByPage(Integer page, Integer rows) {
         Map<String, Object> map = new HashMap<>();
         //获取数据库中的起始条

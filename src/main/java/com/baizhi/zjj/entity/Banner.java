@@ -11,6 +11,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Id;
+import java.io.Serializable;
 import java.util.Date;
 
 /*
@@ -24,7 +25,7 @@ import java.util.Date;
 @ContentRowHeight(15) //内容行高
 @HeadRowHeight(20)    //头部行高
 @ColumnWidth(25)      //列宽
-public class Banner {
+public class Banner implements Serializable {
     @Id
     @ExcelProperty(value = {"Banner","ID"})
     private String id;

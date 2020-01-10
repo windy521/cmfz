@@ -1,13 +1,13 @@
-2020-01-08 19:56:37.676  INFO 2648 --- [main] com.baizhi.zjj.CmfzStart                 : Starting CmfzStart on LAPTOP-8Q0P1J3R with PID 2648 (D:\IdeaFiles\myboot\cmfz\target\classes started by firefly in D:\IdeaFiles\myboot\cmfz)
-2020-01-08 19:56:37.694  INFO 2648 --- [main] com.baizhi.zjj.CmfzStart                 : No active profile set, falling back to default profiles: default
-2020-01-08 19:56:41.818  INFO 2648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 19:56:41.825  INFO 2648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 19:56:42.192  INFO 2648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 277ms. Found 0 Redis repository interfaces.
-2020-01-08 19:56:43.322  INFO 2648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 19:56:44.470  INFO 2648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2020-01-08 19:56:44.491  INFO 2648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-01-08 19:56:44.492  INFO 2648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2020-01-08 19:56:44.978  WARN 2648 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar] from classloader hierarchy
+2020-01-09 20:38:10.809  INFO 10156 --- [main] com.baizhi.zjj.CmfzStart                 : Starting CmfzStart on LAPTOP-8Q0P1J3R with PID 10156 (D:\IdeaFiles\myboot\cmfz\target\classes started by firefly in D:\IdeaFiles\myboot\cmfz)
+2020-01-09 20:38:10.888  INFO 10156 --- [main] com.baizhi.zjj.CmfzStart                 : No active profile set, falling back to default profiles: default
+2020-01-09 20:38:14.364  INFO 10156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-09 20:38:14.379  INFO 10156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-09 20:38:14.604  INFO 10156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 0 Redis repository interfaces.
+2020-01-09 20:38:15.518  INFO 10156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-09 20:38:16.689  INFO 10156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-01-09 20:38:16.701  INFO 10156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-09 20:38:16.701  INFO 10156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-09 20:38:17.323  WARN 10156 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar] from classloader hierarchy
 
 java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb-api.jar (系统找不到指定的文件。)
 	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
@@ -63,7 +63,7 @@ java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-im
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
 	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
 
-2020-01-08 19:56:44.981  WARN 2648 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar] from classloader hierarchy
+2020-01-09 20:38:19.315  WARN 10156 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar] from classloader hierarchy
 
 java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\activation.jar (系统找不到指定的文件。)
 	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
@@ -119,7 +119,7 @@ java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-im
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
 	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
 
-2020-01-08 19:56:44.983  WARN 2648 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar] from classloader hierarchy
+2020-01-09 20:38:19.325  WARN 10156 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar] from classloader hierarchy
 
 java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jsr173_1.0_api.jar (系统找不到指定的文件。)
 	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
@@ -175,7 +175,7 @@ java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-im
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
 	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
 
-2020-01-08 19:56:44.985  WARN 2648 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar] from classloader hierarchy
+2020-01-09 20:38:19.346  WARN 10156 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar] from classloader hierarchy
 
 java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb1-impl.jar (系统找不到指定的文件。)
 	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
@@ -231,30 +231,128 @@ java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-im
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
 	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
 
-2020-01-08 19:56:45.023  INFO 2648 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-01-08 19:56:45.038  INFO 2648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring embedded WebApplicationContext
-2020-01-08 19:56:45.038  INFO 2648 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6546 ms
-2020-01-08 19:56:49.520  INFO 2648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 19:56:49.727  INFO 2648 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 19:56:51.096  INFO 2648 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2020-01-08 19:56:51.097  INFO 2648 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2020-01-08 19:56:51.098  INFO 2648 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2020-01-08 19:56:51.098  INFO 2648 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
-2020-01-08 19:56:51.229  INFO 2648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/cmfz'
-2020-01-08 19:56:51.232  INFO 2648 --- [main] com.baizhi.zjj.CmfzStart                 : Started CmfzStart in 18.214 seconds (JVM running for 20.266)
-2020-01-08 19:58:54.513  INFO 2648 --- [http-nio-8888-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-01-08 19:58:54.515  INFO 2648 --- [http-nio-8888-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-01-08 19:58:54.530  INFO 2648 --- [http-nio-8888-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
-2020-01-08 20:40:19.545  INFO 4092 --- [main] com.baizhi.zjj.CmfzStart                 : Starting CmfzStart on LAPTOP-8Q0P1J3R with PID 4092 (D:\IdeaFiles\myboot\cmfz\target\classes started by firefly in D:\IdeaFiles\myboot\cmfz)
-2020-01-08 20:40:19.578  INFO 4092 --- [main] com.baizhi.zjj.CmfzStart                 : No active profile set, falling back to default profiles: default
-2020-01-08 20:40:22.489  INFO 4092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 20:40:22.495  INFO 4092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 20:40:22.638  INFO 4092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 0 Redis repository interfaces.
-2020-01-08 20:40:23.257  INFO 4092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 20:40:24.288  INFO 4092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2020-01-08 20:40:24.297  INFO 4092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-01-08 20:40:24.297  INFO 4092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2020-01-08 20:40:24.799  WARN 4092 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar] from classloader hierarchy
+2020-01-09 20:38:19.392  INFO 10156 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-09 20:38:19.411  INFO 10156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring embedded WebApplicationContext
+2020-01-09 20:38:19.411  INFO 10156 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8107 ms
+2020-01-09 20:38:25.568  INFO 10156 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-09 20:38:25.781  INFO 10156 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-09 20:38:26.789  INFO 10156 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-01-09 20:38:26.790  INFO 10156 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-01-09 20:38:26.791  INFO 10156 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-01-09 20:38:26.791  INFO 10156 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2020-01-09 20:38:26.939  INFO 10156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/cmfz'
+2020-01-09 20:38:26.963  INFO 10156 --- [main] com.baizhi.zjj.CmfzStart                 : Started CmfzStart in 19.166 seconds (JVM running for 21.784)
+2020-01-09 20:39:02.960  INFO 10156 --- [http-nio-8888-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-09 20:39:02.961  INFO 10156 --- [http-nio-8888-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-09 20:39:02.973  INFO 10156 --- [http-nio-8888-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-01-09 20:39:03.271 DEBUG 10156 --- [http-nio-8888-exec-6] com.baizhi.zjj.dao.BannerDao             : Cache Hit Ratio [com.baizhi.zjj.dao.BannerDao]: 0.0
+2020-01-09 20:39:03.401  INFO 10156 --- [http-nio-8888-exec-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-01-09 20:39:03.719 DEBUG 10156 --- [http-nio-8888-exec-6] c.b.zjj.dao.BannerDao.selectByRowBounds  : ==>  Preparing: SELECT id,title,url,href,create_date,description,status FROM banner 
+2020-01-09 20:39:03.737 DEBUG 10156 --- [http-nio-8888-exec-6] c.b.zjj.dao.BannerDao.selectByRowBounds  : ==> Parameters: 
+2020-01-09 20:39:03.914 ERROR 10156 --- [http-nio-8888-exec-6] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/cmfz] threw exception [Request processing failed; nested exception is org.apache.ibatis.cache.CacheException: Error serializing object.  Cause: java.io.NotSerializableException: com.baizhi.zjj.entity.Banner] with root cause
+
+java.io.NotSerializableException: com.baizhi.zjj.entity.Banner
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184) ~[na:1.8.0_131]
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_131]
+	at java.util.ArrayList.writeObject(ArrayList.java:762) ~[na:1.8.0_131]
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028) ~[na:1.8.0_131]
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496) ~[na:1.8.0_131]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432) ~[na:1.8.0_131]
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178) ~[na:1.8.0_131]
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348) ~[na:1.8.0_131]
+	at org.apache.ibatis.cache.decorators.SerializedCache.serialize(SerializedCache.java:97) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.cache.decorators.SerializedCache.putObject(SerializedCache.java:56) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.cache.decorators.LoggingCache.putObject(LoggingCache.java:51) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.cache.decorators.SynchronizedCache.putObject(SynchronizedCache.java:45) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.cache.decorators.TransactionalCache.flushPendingEntries(TransactionalCache.java:122) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.cache.decorators.TransactionalCache.commit(TransactionalCache.java:105) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.cache.TransactionalCacheManager.commit(TransactionalCacheManager.java:44) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.executor.CachingExecutor.close(CachingExecutor.java:61) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.close(DefaultSqlSession.java:264) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:193) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:454) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at com.sun.proxy.$Proxy85.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:238) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59) ~[mybatis-3.4.6.jar:3.4.6]
+	at com.sun.proxy.$Proxy96.selectByRowBounds(Unknown Source) ~[na:na]
+	at com.baizhi.zjj.service.BannerServiceImpl.queryAllByPage(BannerServiceImpl.java:28) ~[classes/:na]
+	at com.baizhi.zjj.service.BannerServiceImpl$$FastClassBySpringCGLIB$$4489c4ac.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) ~[spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at com.baizhi.zjj.service.BannerServiceImpl$$EnhancerBySpringCGLIB$$28cbd7f9.queryAllByPage(<generated>) ~[classes/:na]
+	at com.baizhi.zjj.controller.BannerController.queryAllByPage(BannerController.java:39) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645) ~[javax.servlet-api-4.0.1.jar:4.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750) ~[javax.servlet-api-4.0.1.jar:4.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.29.jar:9.0.29]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+
+2020-01-09 20:40:14.938  INFO 5680 --- [main] com.baizhi.zjj.CmfzStart                 : Starting CmfzStart on LAPTOP-8Q0P1J3R with PID 5680 (D:\IdeaFiles\myboot\cmfz\target\classes started by firefly in D:\IdeaFiles\myboot\cmfz)
+2020-01-09 20:40:14.946  INFO 5680 --- [main] com.baizhi.zjj.CmfzStart                 : No active profile set, falling back to default profiles: default
+2020-01-09 20:40:16.368  INFO 5680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-09 20:40:16.372  INFO 5680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-09 20:40:16.436  INFO 5680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 0 Redis repository interfaces.
+2020-01-09 20:40:16.748  INFO 5680 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-09 20:40:17.302  INFO 5680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-01-09 20:40:17.312  INFO 5680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-09 20:40:17.312  INFO 5680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-09 20:40:17.690  WARN 5680 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar] from classloader hierarchy
 
 java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb-api.jar (系统找不到指定的文件。)
 	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
@@ -310,7 +408,7 @@ java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-im
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
 	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
 
-2020-01-08 20:40:24.802  WARN 4092 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar] from classloader hierarchy
+2020-01-09 20:40:17.729  WARN 5680 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar] from classloader hierarchy
 
 java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\activation.jar (系统找不到指定的文件。)
 	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
@@ -366,7 +464,7 @@ java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-im
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
 	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
 
-2020-01-08 20:40:24.803  WARN 4092 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar] from classloader hierarchy
+2020-01-09 20:40:17.733  WARN 5680 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar] from classloader hierarchy
 
 java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jsr173_1.0_api.jar (系统找不到指定的文件。)
 	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
@@ -422,7 +520,7 @@ java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-im
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
 	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
 
-2020-01-08 20:40:24.805  WARN 4092 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar] from classloader hierarchy
+2020-01-09 20:40:17.734  WARN 5680 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar] from classloader hierarchy
 
 java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb1-impl.jar (系统找不到指定的文件。)
 	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
@@ -478,994 +576,29 @@ java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-im
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
 	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
 
-2020-01-08 20:40:24.828  INFO 4092 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-01-08 20:40:24.851  INFO 4092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring embedded WebApplicationContext
-2020-01-08 20:40:24.852  INFO 4092 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5119 ms
-2020-01-08 20:42:53.633  INFO 5404 --- [main] com.baizhi.zjj.CmfzStart                 : Starting CmfzStart on LAPTOP-8Q0P1J3R with PID 5404 (D:\IdeaFiles\myboot\cmfz\target\classes started by firefly in D:\IdeaFiles\myboot\cmfz)
-2020-01-08 20:42:53.677  INFO 5404 --- [main] com.baizhi.zjj.CmfzStart                 : No active profile set, falling back to default profiles: default
-2020-01-08 20:42:59.409  INFO 5404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 20:42:59.413  INFO 5404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 20:42:59.558  INFO 5404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 0 Redis repository interfaces.
-2020-01-08 20:43:00.777  INFO 5404 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 20:43:02.038  INFO 5404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2020-01-08 20:43:02.047  INFO 5404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-01-08 20:43:02.048  INFO 5404 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2020-01-08 20:43:02.604  WARN 5404 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb-api.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 20:43:02.606  WARN 5404 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\activation.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 20:43:02.607  WARN 5404 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jsr173_1.0_api.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 20:43:02.608  WARN 5404 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb1-impl.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 20:43:02.631  INFO 5404 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-01-08 20:43:02.648  INFO 5404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring embedded WebApplicationContext
-2020-01-08 20:43:02.648  INFO 5404 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7845 ms
-2020-01-08 20:43:05.805  INFO 5404 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 20:43:05.969  INFO 5404 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 20:43:06.840  INFO 5404 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2020-01-08 20:43:06.842  INFO 5404 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2020-01-08 20:43:06.843  INFO 5404 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2020-01-08 20:43:06.844  INFO 5404 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
-2020-01-08 20:43:06.953  INFO 5404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/cmfz'
-2020-01-08 20:43:06.957  INFO 5404 --- [main] com.baizhi.zjj.CmfzStart                 : Started CmfzStart in 16.254 seconds (JVM running for 17.917)
-2020-01-08 20:43:16.821  INFO 5404 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-01-08 20:43:16.822  INFO 5404 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-01-08 20:43:16.840  INFO 5404 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
-2020-01-08 20:46:25.983  INFO 11776 --- [main] com.baizhi.zjj.CmfzStart                 : Starting CmfzStart on LAPTOP-8Q0P1J3R with PID 11776 (D:\IdeaFiles\myboot\cmfz\target\classes started by firefly in D:\IdeaFiles\myboot\cmfz)
-2020-01-08 20:46:25.986  INFO 11776 --- [main] com.baizhi.zjj.CmfzStart                 : No active profile set, falling back to default profiles: default
-2020-01-08 20:46:27.622  INFO 11776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 20:46:27.624  INFO 11776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 20:46:27.694  INFO 11776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 0 Redis repository interfaces.
-2020-01-08 20:46:29.699  INFO 11776 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 20:46:31.739  INFO 11776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2020-01-08 20:46:31.752  INFO 11776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-01-08 20:46:31.752  INFO 11776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2020-01-08 20:46:32.353  WARN 11776 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb-api.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 20:46:32.376  WARN 11776 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\activation.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 20:46:32.378  WARN 11776 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jsr173_1.0_api.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 20:46:32.380  WARN 11776 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb1-impl.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 20:46:32.398  INFO 11776 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-01-08 20:46:32.439  INFO 11776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring embedded WebApplicationContext
-2020-01-08 20:46:32.440  INFO 11776 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6398 ms
-2020-01-08 20:46:35.990  INFO 11776 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 20:46:36.170  INFO 11776 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 20:46:37.162  INFO 11776 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2020-01-08 20:46:37.163  INFO 11776 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2020-01-08 20:46:37.164  INFO 11776 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2020-01-08 20:46:37.164  INFO 11776 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
-2020-01-08 20:46:37.262  INFO 11776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/cmfz'
-2020-01-08 20:46:37.265  INFO 11776 --- [main] com.baizhi.zjj.CmfzStart                 : Started CmfzStart in 11.804 seconds (JVM running for 13.517)
-2020-01-08 20:47:01.818  INFO 11776 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-01-08 20:47:01.818  INFO 11776 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-01-08 20:47:01.853  INFO 11776 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 35 ms
-2020-01-08 21:20:43.269  INFO 8544 --- [main] com.baizhi.zjj.CmfzStart                 : Starting CmfzStart on LAPTOP-8Q0P1J3R with PID 8544 (D:\IdeaFiles\myboot\cmfz\target\classes started by firefly in D:\IdeaFiles\myboot\cmfz)
-2020-01-08 21:20:43.406  INFO 8544 --- [main] com.baizhi.zjj.CmfzStart                 : No active profile set, falling back to default profiles: default
-2020-01-08 21:20:48.971  INFO 8544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 21:20:48.999  INFO 8544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 21:20:49.231  INFO 8544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126ms. Found 0 Redis repository interfaces.
-2020-01-08 21:20:50.072  INFO 8544 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 21:20:51.241  INFO 8544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2020-01-08 21:20:51.253  INFO 8544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-01-08 21:20:51.253  INFO 8544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2020-01-08 21:20:51.848  WARN 8544 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb-api.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 21:20:51.850  WARN 8544 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\activation.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 21:20:51.851  WARN 8544 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jsr173_1.0_api.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 21:20:51.854  WARN 8544 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb1-impl.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 21:20:51.884  INFO 8544 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-01-08 21:20:51.909  INFO 8544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring embedded WebApplicationContext
-2020-01-08 21:20:51.909  INFO 8544 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7346 ms
-2020-01-08 21:20:55.536  INFO 8544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 21:20:55.704  INFO 8544 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 21:20:56.436  INFO 8544 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2020-01-08 21:20:56.437  INFO 8544 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2020-01-08 21:20:56.438  INFO 8544 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2020-01-08 21:20:56.438  INFO 8544 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
-2020-01-08 21:20:56.531  INFO 8544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/cmfz'
-2020-01-08 21:20:56.534  INFO 8544 --- [main] com.baizhi.zjj.CmfzStart                 : Started CmfzStart in 17.177 seconds (JVM running for 19.575)
-2020-01-08 21:21:03.633  INFO 8544 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-01-08 21:21:03.634  INFO 8544 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-01-08 21:21:03.648  INFO 8544 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
-2020-01-08 21:27:26.544  INFO 8808 --- [main] com.baizhi.zjj.CmfzStart                 : Starting CmfzStart on LAPTOP-8Q0P1J3R with PID 8808 (D:\IdeaFiles\myboot\cmfz\target\classes started by firefly in D:\IdeaFiles\myboot\cmfz)
-2020-01-08 21:27:26.546  INFO 8808 --- [main] com.baizhi.zjj.CmfzStart                 : No active profile set, falling back to default profiles: default
-2020-01-08 21:27:27.999  INFO 8808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 21:27:28.004  INFO 8808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 21:27:28.081  INFO 8808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 0 Redis repository interfaces.
-2020-01-08 21:27:28.417  INFO 8808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 21:27:29.099  INFO 8808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2020-01-08 21:27:29.108  INFO 8808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-01-08 21:27:29.108  INFO 8808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2020-01-08 21:27:29.450  WARN 8808 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb-api.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb-api.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 21:27:29.463  WARN 8808 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/activation.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\activation.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 21:27:29.464  WARN 8808 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jsr173_1.0_api.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jsr173_1.0_api.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 21:27:29.465  WARN 8808 --- [main] o.a.tomcat.util.scan.StandardJarScanner  : Failed to scan [file:/D:/maven3/mvn-repository/com/sun/xml/bind/jaxb-impl/2.1/jaxb1-impl.jar] from classloader hierarchy
-
-java.io.FileNotFoundException: D:\maven3\mvn-repository\com\sun\xml\bind\jaxb-impl\2.1\jaxb1-impl.jar (系统找不到指定的文件。)
-	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[na:1.8.0_131]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_131]
-	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[na:1.8.0_131]
-	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:177) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49) ~[tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83) [tomcat-embed-jasper-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [na:1.8.0_131]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:459) [tomcat-embed-core-9.0.29.jar:9.0.29]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) [spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
-	at com.baizhi.zjj.CmfzStart.main(CmfzStart.java:14) [classes/:na]
-
-2020-01-08 21:27:29.469  INFO 8808 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-01-08 21:27:29.477  INFO 8808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring embedded WebApplicationContext
-2020-01-08 21:27:29.477  INFO 8808 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2886 ms
-2020-01-08 21:27:30.696  INFO 8808 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 21:27:30.854  INFO 8808 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 21:27:31.149  INFO 8808 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2020-01-08 21:27:31.150  INFO 8808 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2020-01-08 21:27:31.151  INFO 8808 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2020-01-08 21:27:31.151  INFO 8808 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
-2020-01-08 21:27:31.203  INFO 8808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/cmfz'
-2020-01-08 21:27:31.206  INFO 8808 --- [main] com.baizhi.zjj.CmfzStart                 : Started CmfzStart in 5.135 seconds (JVM running for 6.242)
-2020-01-08 21:27:48.580  INFO 8808 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-01-08 21:27:48.581  INFO 8808 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-01-08 21:27:48.588  INFO 8808 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-01-09 20:40:17.738  INFO 5680 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-01-09 20:40:17.746  INFO 5680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring embedded WebApplicationContext
+2020-01-09 20:40:17.747  INFO 5680 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2679 ms
+2020-01-09 20:40:19.183  INFO 5680 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-09 20:40:19.352  INFO 5680 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-09 20:40:19.672  INFO 5680 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-01-09 20:40:19.673  INFO 5680 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-01-09 20:40:19.673  INFO 5680 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-01-09 20:40:19.673  INFO 5680 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2020-01-09 20:40:19.732  INFO 5680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path '/cmfz'
+2020-01-09 20:40:19.735  INFO 5680 --- [main] com.baizhi.zjj.CmfzStart                 : Started CmfzStart in 5.692 seconds (JVM running for 7.341)
+2020-01-09 20:40:31.168  INFO 5680 --- [http-nio-8888-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/cmfz]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-09 20:40:31.169  INFO 5680 --- [http-nio-8888-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-09 20:40:31.258  INFO 5680 --- [http-nio-8888-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 89 ms
+2020-01-09 20:40:31.446 DEBUG 5680 --- [http-nio-8888-exec-3] com.baizhi.zjj.dao.BannerDao             : Cache Hit Ratio [com.baizhi.zjj.dao.BannerDao]: 0.0
+2020-01-09 20:40:31.565  INFO 5680 --- [http-nio-8888-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-01-09 20:40:31.742 DEBUG 5680 --- [http-nio-8888-exec-3] c.b.zjj.dao.BannerDao.selectByRowBounds  : ==>  Preparing: SELECT id,title,url,href,create_date,description,status FROM banner 
+2020-01-09 20:40:31.758 DEBUG 5680 --- [http-nio-8888-exec-3] c.b.zjj.dao.BannerDao.selectByRowBounds  : ==> Parameters: 
+2020-01-09 20:40:31.792 DEBUG 5680 --- [http-nio-8888-exec-3] com.baizhi.zjj.dao.BannerDao             : Cache Hit Ratio [com.baizhi.zjj.dao.BannerDao]: 0.0
+2020-01-09 20:40:31.793 DEBUG 5680 --- [http-nio-8888-exec-3] c.baizhi.zjj.dao.BannerDao.selectCount   : ==>  Preparing: SELECT COUNT(id) FROM banner 
+2020-01-09 20:40:31.793 DEBUG 5680 --- [http-nio-8888-exec-3] c.baizhi.zjj.dao.BannerDao.selectCount   : ==> Parameters: 
+2020-01-09 20:40:31.797 DEBUG 5680 --- [http-nio-8888-exec-3] c.baizhi.zjj.dao.BannerDao.selectCount   : <==      Total: 1
+2020-01-09 20:40:49.692 DEBUG 5680 --- [http-nio-8888-exec-10] com.baizhi.zjj.dao.BannerDao             : Cache Hit Ratio [com.baizhi.zjj.dao.BannerDao]: 0.3333333333333333
+2020-01-09 20:40:49.693 DEBUG 5680 --- [http-nio-8888-exec-10] com.baizhi.zjj.dao.BannerDao             : Cache Hit Ratio [com.baizhi.zjj.dao.BannerDao]: 0.5
+2020-01-09 20:42:13.912 DEBUG 5680 --- [http-nio-8888-exec-3] com.baizhi.zjj.dao.BannerDao             : Cache Hit Ratio [com.baizhi.zjj.dao.BannerDao]: 0.6
+2020-01-09 20:42:13.912 DEBUG 5680 --- [http-nio-8888-exec-3] com.baizhi.zjj.dao.BannerDao             : Cache Hit Ratio [com.baizhi.zjj.dao.BannerDao]: 0.6666666666666666

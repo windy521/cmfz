@@ -1,4 +1,4 @@
-package com.baizhi.annotation;
+package com.baizhi.zjj.annotation;
 
 public @interface ClearCache {
 }

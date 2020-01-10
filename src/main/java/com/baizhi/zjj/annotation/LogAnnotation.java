@@ -1,4 +1,4 @@
-package com.baizhi.zjj.aspect;
+package com.baizhi.zjj.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
